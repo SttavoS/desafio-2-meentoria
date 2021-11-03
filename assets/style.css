@@ -1,3 +1,28 @@
+:root {
+    --red: #D6000D;
+}
+  
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.logo, .logo:hover {
+    color: var(--red);
+}
+
+#hero h1 {
+    color: var(--red);
+}
+
+.button-red {
+    background-color: var(--red);
+    border-color: var(--red);
+    font-weight: 700;
+    border-radius: 12px;
+    color: white;
+}
+
+.button-red:hover {
+    filter: brightness(90%);
+    color: white;
 }
