@@ -26,3 +26,15 @@ body {
     filter: brightness(90%);
     color: white;
 }
+
+.services-list {
+    list-style: none;
+}
+
+.services-list li {
+    background: url('../assets/icons/check-circle-fill.svg') no-repeat left;
+    background-size: 24px;
+    padding-left: 2em;
+    vertical-align: baseline;
+    font-size: 28px;
+}
